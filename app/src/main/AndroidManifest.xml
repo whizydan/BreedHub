@@ -60,7 +60,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAGxso4wjswucd6jqwll7crlrAW96G_OE" />
+            android:value="AIzaSyAGxso4wjswucd6jqwl" />
 
         <activity
             android:name=".activities.SuccessActivity"
