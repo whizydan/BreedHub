@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PetInformationActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/back"
+            android:src="@drawable/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_weight="0.5"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:text="Pet Information"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:text=""
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:text="Skip"
+            android:visibility="gone"
+            android:id="@+id/skip"
+            app:cornerRadius="40dp"
+            app:backgroundTint="#C9F3DD"
+            android:textColor="@color/positive"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Cat's name"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/name"
+                android:layout_margin="10dp"
+                android:hint="Enter your pets name"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Cat's Birthday"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                app:endIconMode="custom"
+                app:boxBackgroundMode="filled"
+                android:inputType="date"
+                app:endIconDrawable="@drawable/calendar"
+                android:id="@+id/date"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:hint="dd/mm/yyyy"
+                    android:id="@+id/birthday"
+                    android:layout_height="wrap_content"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <RadioGroup
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    app:cornerRadius="8dp"
+                    android:id="@+id/male"
+                    android:layout_margin="5dp"
+                    android:padding="20dp"
+                    app:strokeColor="#CDCBCB"
+                    android:textColor="@color/positive"
+                    app:strokeWidth="1dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Male"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="wrap_content"
+                    app:cornerRadius="8dp"
+                    android:layout_margin="5dp"
+                    android:padding="20dp"
+                    android:id="@+id/female"
+                    app:strokeColor="#CDCBCB"
+                    app:strokeWidth="1dp"
+                    android:textColor="@color/positive"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Female"
+                    android:layout_height="wrap_content"/>
+            </RadioGroup>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.materialswitch.MaterialSwitch
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:id="@+id/ready"
+                android:text="Ready to breed?"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/health"
+                app:cornerRadius="8dp"
+                android:text="Upload Health record"
+                app:iconGravity="textTop"
+                android:backgroundTint="#5A3C3C"
+                app:icon="@drawable/upload"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="description(optional)"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:id="@+id/description"
+                android:inputType="textMultiLine"
+                android:hint="Enter information about your cat"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                tools:listitem="@layout/pet_images_list_item"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="horizontal"
+                android:id="@+id/images"
+                tools:itemCount="3"
+                android:layout_height="100dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:text="Next"
+        android:layout_gravity="bottom"
+        android:id="@+id/next"
+        app:cornerRadius="8dp"
+        app:backgroundTint="@color/positive"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

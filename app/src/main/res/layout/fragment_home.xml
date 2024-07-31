@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.HomeFragment">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/banner"
+        android:layout_width="80dp"
+        android:layout_height="40dp"/>
+
+    <LinearLayout
+        android:elevation="5dp"
+        android:layout_weight="0.8"
+        android:padding="10dp"
+        android:background="@drawable/layout_curve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:text="Good Morning"
+                    android:id="@+id/greeting"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:text="Faiz Fulzikil"
+                    android:id="@+id/userName"
+                    android:textStyle="bold"
+                    android:textSize="26sp"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:id="@+id/myPets"
+                    tools:itemCount="4"
+                    tools:listitem="@layout/my_pet_list_item"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="match_parent"
+                    android:text="Services"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                    app:spanCount="2"
+                    android:id="@+id/services"
+                    tools:itemCount="8"
+                    tools:listitem="@layout/services_list_item"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ProfileFragment">
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profileImage"
+        app:shapeAppearanceOverlay="@style/CircleImageView"
+        android:scaleType="centerCrop"
+        android:background="#5E9C9898"
+        android:src="@drawable/person"
+        android:layout_width="70dp"
+        android:layout_height="70dp"/>
+
+    <LinearLayout
+        android:paddingStart="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_weight="0.5"
+                android:paddingTop="10dp"
+                android:id="@+id/name"
+                android:text="Faiz Fulkil"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:id="@+id/edit"
+                android:src="@drawable/edit"
+                android:scaleType="fitCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:id="@+id/email"
+            android:text="faiz@gmail.com"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/notifications"
+            android:layout_gravity="center"
+            android:layout_weight="0.4"
+            android:src="@drawable/notification"
+            android:scaleType="fitCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pets"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true">
+
+        <ImageView
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:text="My pets"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/next"
+            android:scaleType="fitCenter"
+            android:padding="15dp"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/requests"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/pet"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:tint="@color/black" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:text="Breeding Requests"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/next"
+            android:scaleType="fitCenter"
+            android:padding="15dp"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/share"
+        android:clickable="true"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true">
+
+        <ImageView
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/invite"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:text="Invite a friend"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/next"
+            android:scaleType="fitCenter"
+            android:padding="15dp"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/help"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/help"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:text="Help"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/next"
+            android:scaleType="fitCenter"
+            android:padding="15dp"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/about"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/info"
+            android:backgroundTint="@color/black"
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:text="About"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/next"
+            android:scaleType="fitCenter"
+            android:padding="15dp"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/logout"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logout"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:tint="@color/black" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:text="Logout"
+            android:paddingStart="10dp"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/next"
+            android:scaleType="fitCenter"
+            android:padding="15dp"
+            />
+
+    </LinearLayout>
+
+    <com.google.android.material.divider.MaterialDivider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

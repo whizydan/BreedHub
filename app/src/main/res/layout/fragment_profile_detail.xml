@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileDetailFragment">
+
+    <LinearLayout
+        android:layout_weight="0.2"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:src="@drawable/back"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:text="User Profile"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_weight="0.8"
+        android:elevation="2dp"
+        android:background="@drawable/layout_curve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                android:id="@+id/profileImage"
+                android:layout_gravity="center"
+                android:src="@drawable/person"
+                android:scaleType="centerCrop"
+                android:background="#B1AEAE"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Faiz Zukifllii"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/name"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Information"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:text="Email:"
+                    android:textAlignment="viewStart"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:maxLines="1"
+                    android:id="@+id/email"
+                    android:textAlignment="viewEnd"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:text="Phone Number:"
+                    android:textAlignment="viewStart"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:maxLines="1"
+                    android:textAlignment="viewEnd"
+                    android:id="@+id/phone"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:text="Member since:"
+                    android:textAlignment="viewStart"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:maxLines="1"
+                    android:id="@+id/date"
+                    android:textAlignment="viewEnd"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Settings"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/edit"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/edit"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:text="Edit profile"
+                    android:paddingStart="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.5"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/next"
+                    android:scaleType="fitCenter"
+                    android:padding="15dp"
+                    />
+
+            </LinearLayout>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/editPass"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:padding="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/edit"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="wrap_content"
+                    android:text="Change Password"
+                    android:paddingStart="20dp"
+                    android:textStyle="bold"
+                    android:layout_weight="0.5"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"/>
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:src="@drawable/next"
+                    android:scaleType="fitCenter"
+                    android:padding="15dp"
+                    />
+
+            </LinearLayout>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

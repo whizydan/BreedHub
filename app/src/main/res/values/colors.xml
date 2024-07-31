@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="button">#0EC1DF</color>
+    <color name="accent">#F4DC5E</color>
+    <color name="positive">#2BA365</color>
+    <color name="negative">#AD7658</color>
+    <color name="neutral">#48A5B4</color>
+    <color name="myChat">#00B8D4</color>
+    <color name="otherChat">#64DD17</color>
+</resources>

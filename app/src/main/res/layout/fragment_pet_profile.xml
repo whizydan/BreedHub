@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_weight="0.2"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:scaleType="fitCenter"
+            android:src="@drawable/back"
+            android:layout_width="32dp"
+            android:layout_height="32dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:text="Pet Profile"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_weight="0.8"
+        android:elevation="2dp"
+        android:background="@drawable/layout_curve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                app:shapeAppearanceOverlay="@style/CircleImageView"
+                android:id="@+id/profileImage"
+                android:layout_gravity="center"
+                android:src="@drawable/person"
+                android:scaleType="centerCrop"
+                android:background="#B1AEAE"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Faiz Zukifllii"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:id="@+id/name"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Information"
+                android:textSize="16sp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:text="Age:"
+                    android:textAlignment="viewStart"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:maxLines="1"
+                    android:id="@+id/age"
+                    android:textAlignment="viewEnd"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:text="Breed:"
+                    android:textAlignment="viewStart"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"/>
+                <com.google.android.material.textview.MaterialTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.6"
+                    android:maxLines="1"
+                    android:textAlignment="viewEnd"
+                    android:id="@+id/breed"
+                    android:layout_margin="10dp"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:text="Images"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:id="@+id/edit"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                android:orientation="horizontal"
+                android:id="@+id/images"
+                tools:listitem="@layout/pet_images_list_item"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:text="Edit pet"
+        android:id="@+id/editCat"
+        android:backgroundTint="@color/positive"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:text="Delete pet"
+        android:id="@+id/deleteCat"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

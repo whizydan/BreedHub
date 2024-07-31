@@ -1,0 +1,439 @@
+<resources>
+    <string name="app_name">BreedHub</string>
+    <string name="description">Your number one go to app for all you cat breeding needs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <array name="countries">
+        <item>Afghanistan +93</item>
+        <item>Albania +355</item>
+        <item>Algeria +213</item>
+        <item>American Samoa +1-684</item>
+        <item>Andorra +376</item>
+        <item>Angola +244</item>
+        <item>Anguilla +1-264</item>
+        <item>Antarctica +672</item>
+        <item>Antigua and Barbuda +1-268</item>
+        <item>Argentina +54</item>
+        <item>Armenia +374</item>
+        <item>Aruba +297</item>
+        <item>Australia +61</item>
+        <item>Austria +43</item>
+        <item>Azerbaijan +994</item>
+        <item>Bahamas +1-242</item>
+        <item>Bahrain +973</item>
+        <item>Bangladesh +880</item>
+        <item>Barbados +1-246</item>
+        <item>Belarus +375</item>
+        <item>Belgium +32</item>
+        <item>Belize +501</item>
+        <item>Benin +229</item>
+        <item>Bermuda +1-441</item>
+        <item>Bhutan +975</item>
+        <item>Bolivia +591</item>
+        <item>Bosnia and Herzegovina +387</item>
+        <item>Botswana +267</item>
+        <item>Brazil +55</item>
+        <item>British Indian Ocean Territory +246</item>
+        <item>British Virgin Islands +1-284</item>
+        <item>Brunei +673</item>
+        <item>Bulgaria +359</item>
+        <item>Burkina Faso +226</item>
+        <item>Burundi +257</item>
+        <item>Cambodia +855</item>
+        <item>Cameroon +237</item>
+        <item>Canada +1</item>
+        <item>Cape Verde +238</item>
+        <item>Cayman Islands +1-345</item>
+        <item>Central African Republic +236</item>
+        <item>Chad +235</item>
+        <item>Chile +56</item>
+        <item>China +86</item>
+        <item>Christmas Island +61</item>
+        <item>Cocos Islands +61</item>
+        <item>Colombia +57</item>
+        <item>Comoros +269</item>
+        <item>Cook Islands +682</item>
+        <item>Costa Rica +506</item>
+        <item>Croatia +385</item>
+        <item>Cuba +53</item>
+        <item>Curacao +599</item>
+        <item>Cyprus +357</item>
+        <item>Czech Republic +420</item>
+        <item>Democratic Republic of the Congo +243</item>
+        <item>Denmark +45</item>
+        <item>Djibouti +253</item>
+        <item>Dominica +1-767</item>
+        <item>Dominican Republic +1-809</item>
+        <item>East Timor +670</item>
+        <item>Ecuador +593</item>
+        <item>Egypt +20</item>
+        <item>El Salvador +503</item>
+        <item>Equatorial Guinea +240</item>
+        <item>Eritrea +291</item>
+        <item>Estonia +372</item>
+        <item>Eswatini +268</item>
+        <item>Ethiopia +251</item>
+        <item>Falkland Islands +500</item>
+        <item>Faroe Islands +298</item>
+        <item>Fiji +679</item>
+        <item>Finland +358</item>
+        <item>France +33</item>
+        <item>French Polynesia +689</item>
+        <item>Gabon +241</item>
+        <item>Gambia +220</item>
+        <item>Georgia +995</item>
+        <item>Germany +49</item>
+        <item>Ghana +233</item>
+        <item>Gibraltar +350</item>
+        <item>Greece +30</item>
+        <item>Greenland +299</item>
+        <item>Grenada +1-473</item>
+        <item>Guam +1-671</item>
+        <item>Guatemala +502</item>
+        <item>Guernsey +44-1481</item>
+        <item>Guinea +224</item>
+        <item>Guinea-Bissau +245</item>
+        <item>Guyana +592</item>
+        <item>Haiti +509</item>
+        <item>Honduras +504</item>
+        <item>Hong Kong +852</item>
+        <item>Hungary +36</item>
+        <item>Iceland +354</item>
+        <item>India +91</item>
+        <item>Indonesia +62</item>
+        <item>Iran +98</item>
+        <item>Iraq +964</item>
+        <item>Ireland +353</item>
+        <item>Isle of Man +44-1624</item>
+        <item>Israel +972</item>
+        <item>Italy +39</item>
+        <item>Ivory Coast +225</item>
+        <item>Jamaica +1-876</item>
+        <item>Japan +81</item>
+        <item>Jersey +44-1534</item>
+        <item>Jordan +962</item>
+        <item>Kazakhstan +7</item>
+        <item>Kenya +254</item>
+        <item>Kiribati +686</item>
+        <item>Kosovo +383</item>
+        <item>Kuwait +965</item>
+        <item>Kyrgyzstan +996</item>
+        <item>Laos +856</item>
+        <item>Latvia +371</item>
+        <item>Lebanon +961</item>
+        <item>Lesotho +266</item>
+        <item>Liberia +231</item>
+        <item>Libya +218</item>
+        <item>Liechtenstein +423</item>
+        <item>Lithuania +370</item>
+        <item>Luxembourg +352</item>
+        <item>Macau +853</item>
+        <item>Madagascar +261</item>
+        <item>Malawi +265</item>
+        <item>Malaysia +60</item>
+        <item>Maldives +960</item>
+        <item>Mali +223</item>
+        <item>Malta +356</item>
+        <item>Marshall Islands +692</item>
+        <item>Mauritania +222</item>
+        <item>Mauritius +230</item>
+        <item>Mexico +52</item>
+        <item>Micronesia +691</item>
+        <item>Moldova +373</item>
+        <item>Monaco +377</item>
+        <item>Mongolia +976</item>
+        <item>Montenegro +382</item>
+        <item>Montserrat +1-664</item>
+        <item>Morocco +212</item>
+        <item>Mozambique +258</item>
+        <item>Myanmar +95</item>
+        <item>Namibia +264</item>
+        <item>Nauru +674</item>
+        <item>Nepal +977</item>
+        <item>Netherlands +31</item>
+        <item>New Caledonia +687</item>
+        <item>New Zealand +64</item>
+        <item>Nicaragua +505</item>
+        <item>Niger +227</item>
+        <item>Nigeria +234</item>
+        <item>Niue +683</item>
+        <item>North Korea +850</item>
+        <item>North Macedonia +389</item>
+        <item>Northern Mariana Islands +1-670</item>
+        <item>Norway +47</item>
+        <item>Oman +968</item>
+        <item>Pakistan +92</item>
+        <item>Palau +680</item>
+        <item>Palestine +970</item>
+        <item>Panama +507</item>
+        <item>Papua New Guinea +675</item>
+        <item>Paraguay +595</item>
+        <item>Peru +51</item>
+        <item>Philippines +63</item>
+        <item>Pitcairn +64</item>
+        <item>Poland +48</item>
+        <item>Portugal +351</item>
+        <item>Puerto Rico +1-787</item>
+        <item>Qatar +974</item>
+        <item>Republic of the Congo +242</item>
+        <item>Reunion +262</item>
+        <item>Romania +40</item>
+        <item>Russia +7</item>
+        <item>Rwanda +250</item>
+        <item>Saint Barthelemy +590</item>
+        <item>Saint Helena +290</item>
+        <item>Saint Kitts and Nevis +1-869</item>
+        <item>Saint Lucia +1-758</item>
+        <item>Saint Martin +590</item>
+        <item>Saint Pierre and Miquelon +508</item>
+        <item>Saint Vincent and the Grenadines +1-784</item>
+        <item>Samoa +685</item>
+        <item>San Marino +378</item>
+        <item>Sao Tome and Principe +239</item>
+        <item>Saudi Arabia +966</item>
+        <item>Senegal +221</item>
+        <item>Serbia +381</item>
+        <item>Seychelles +248</item>
+        <item>Sierra Leone +232</item>
+        <item>Singapore +65</item>
+        <item>Sint Maarten +1-721</item>
+        <item>Slovakia +421</item>
+        <item>Slovenia +386</item>
+        <item>Solomon Islands +677</item>
+        <item>Somalia +252</item>
+        <item>South Africa +27</item>
+        <item>South Korea +82</item>
+        <item>South Sudan +211</item>
+        <item>Spain +34</item>
+        <item>Sri Lanka +94</item>
+        <item>Sudan +249</item>
+        <item>Suriname +597</item>
+        <item>Svalbard and Jan Mayen +47</item>
+        <item>Sweden +46</item>
+        <item>Switzerland +41</item>
+        <item>Syria +963</item>
+        <item>Taiwan +886</item>
+        <item>Tajikistan +992</item>
+        <item>Tanzania +255</item>
+        <item>Thailand +66</item>
+        <item>Togo +228</item>
+        <item>Tokelau +690</item>
+        <item>Tonga +676</item>
+        <item>Trinidad and Tobago +1-868</item>
+        <item>Tunisia +216</item>
+        <item>Turkey +90</item>
+        <item>Turkmenistan +993</item>
+        <item>Tuvalu +688</item>
+        <item>U.S. Virgin Islands +1-340</item>
+        <item>Uganda +256</item>
+        <item>Ukraine +380</item>
+        <item>United Arab Emirates +971</item>
+        <item>United Kingdom +44</item>
+        <item>United States +1</item>
+        <item>Uruguay +598</item>
+        <item>Uzbekistan +998</item>
+        <item>Vanuatu +678</item>
+        <item>Vatican +379</item>
+        <item>Venezuela +58</item>
+        <item>Vietnam +84</item>
+        <item>Wallis and Futuna +681</item>
+        <item>Western Sahara +212</item>
+        <item>Yemen +967</item>
+        <item>Zambia +260</item>
+        <item>Zimbabwe +263</item>
+    </array>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="lorem_ipsum">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
+        volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
+        dui nec risus. Maecenas non sodales nisi, vel dictum dolor. Class aptent taciti sociosqu ad
+        litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse blandit eleifend
+        diam, vel rutrum tellus vulputate quis. Aliquam eget libero aliquet, imperdiet nisl a,
+        ornare ex. Sed rhoncus est ut libero porta lobortis. Fusce in dictum tellus.\n\n
+        Suspendisse interdum ornare ante. Aliquam nec cursus lorem. Morbi id magna felis. Vivamus
+        egestas, est a condimentum egestas, turpis nisl iaculis ipsum, in dictum tellus dolor sed
+        neque. Morbi tellus erat, dapibus ut sem a, iaculis tincidunt dui. Interdum et malesuada
+        fames ac ante ipsum primis in faucibus. Curabitur et eros porttitor, ultricies urna vitae,
+        molestie nibh. Phasellus at commodo eros, non aliquet metus. Sed maximus nisl nec dolor
+        bibendum, vel congue leo egestas.\n\n
+        Sed interdum tortor nibh, in sagittis risus mollis quis. Curabitur mi odio, condimentum sit
+        amet auctor at, mollis non turpis. Nullam pretium libero vestibulum, finibus orci vel,
+        molestie quam. Fusce blandit tincidunt nulla, quis sollicitudin libero facilisis et. Integer
+        interdum nunc ligula, et fermentum metus hendrerit id. Vestibulum lectus felis, dictum at
+        lacinia sit amet, tristique id quam. Cras eu consequat dui. Suspendisse sodales nunc ligula,
+        in lobortis sem porta sed. Integer id ultrices magna, in luctus elit. Sed a pellentesque
+        est.\n\n
+        Aenean nunc velit, lacinia sed dolor sed, ultrices viverra nulla. Etiam a venenatis nibh.
+        Morbi laoreet, tortor sed facilisis varius, nibh orci rhoncus nulla, id elementum leo dui
+        non lorem. Nam mollis ipsum quis auctor varius. Quisque elementum eu libero sed commodo. In
+        eros nisl, imperdiet vel imperdiet et, scelerisque a mauris. Pellentesque varius ex nunc,
+        quis imperdiet eros placerat ac. Duis finibus orci et est auctor tincidunt. Sed non viverra
+        ipsum. Nunc quis augue egestas, cursus lorem at, molestie sem. Morbi a consectetur ipsum, a
+        placerat diam. Etiam vulputate dignissim convallis. Integer faucibus mauris sit amet finibus
+        convallis.\n\n
+        Phasellus in aliquet mi. Pellentesque habitant morbi tristique senectus et netus et
+        malesuada fames ac turpis egestas. In volutpat arcu ut felis sagittis, in finibus massa
+        gravida. Pellentesque id tellus orci. Integer dictum, lorem sed efficitur ullamcorper,
+        libero justo consectetur ipsum, in mollis nisl ex sed nisl. Donec maximus ullamcorper
+        sodales. Praesent bibendum rhoncus tellus nec feugiat. In a ornare nulla. Donec rhoncus
+        libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
+        vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
+    </string>
+    <string name="about_us_content">
+        <![CDATA[
+        Welcome to <b>BreedHub!</b><br/><br/>
+
+        At <b>BreedHub</b>, we are passionate about connecting cat enthusiasts from around the world. Our mission is to create a community where cat owners can find the perfect match for breeding, ensuring the health and happiness of their beloved pets. Whether you\\\\\'re a seasoned breeder or a new cat owner looking to expand your feline family, <b>BreedHub</b> is here to assist you every step of the way.<br/><br/>
+
+        <b>Our Vision:</b><br/>
+        To be the leading platform for cat breeding and veterinary care, fostering a supportive and knowledgeable community of cat lovers.<br/><br/>
+
+        <b>What We Offer:</b><br/>
+        <ul>
+            <li><b>Cat Breeding Connections:</b> Easily connect with other cat owners who are looking to breed their cats. Our platform allows you to find the best matches based on breed, health, and genetic compatibility.</li>
+            <li><b>Nearby Vet Clinics:</b> Your cat\'s health is our top priority. With <b>BreedHub</b>, you can quickly locate nearby veterinary clinics, ensuring that expert care is always within reach. Get directions and clinic details to make your visits stress-free.</li>
+            <li><b>Community Support:</b> Join a community of cat lovers who share your passion. Exchange tips, share experiences, and get advice from fellow cat owners and breeders.</li>
+            <li><b>User-Friendly Interface:</b> Our app is designed with you in mind. Navigate through our intuitive interface to easily find the features you need, from searching for breeding partners to locating vet clinics.</li>
+        </ul>
+        <br/>
+        At <b>BreedHub</b>, we believe that every cat deserves the best care and the chance to thrive. Our platform is built on a foundation of trust, support, and a shared love for cats. Join our community today and be a part of a network that is dedicated to the well-being and happiness of our feline friends.<br/><br/>
+
+        <b>Contact Us:</b><br/>
+        For any inquiries or support, please reach out to us at <a href="mailto:support@breedhub.com">support@breedhub.com</a>. Follow us on social media to stay updated with the latest news and features from <b>BreedHub</b>.<br/><br/>
+
+        Thank you for choosing <b>BreedHub</b>. Together, we can ensure a brighter future for our cats!<br/><br/>
+
+        Happy Breeding!<br/><br/>
+
+        The <b>BreedHub</b> Team
+        ]]>
+    </string>
+    <array name="breeds">
+        <item>Abyssinian</item>
+        <item>Aegean</item>
+        <item>American Bobtail</item>
+        <item>American Curl</item>
+        <item>American Shorthair</item>
+        <item>American Wirehair</item>
+        <item>Arabian Mau</item>
+        <item>Australian Mist</item>
+        <item>Asian</item>
+        <item>Balinese</item>
+        <item>Bambino</item>
+        <item>Bengal</item>
+        <item>Birman</item>
+        <item>Bombay</item>
+        <item>Brazilian Shorthair</item>
+        <item>British Longhair</item>
+        <item>British Shorthair</item>
+        <item>Burmese</item>
+        <item>Burmilla</item>
+        <item>California Spangled</item>
+        <item>Chantilly-Tiffany</item>
+        <item>Chartreux</item>
+        <item>Chausie</item>
+        <item>Cheetoh</item>
+        <item>Colorpoint Shorthair</item>
+        <item>Cornish Rex</item>
+        <item>Cymric</item>
+        <item>Cyprus</item>
+        <item>Devon Rex</item>
+        <item>Donskoy</item>
+        <item>Dragon Li</item>
+        <item>Dwarf cat</item>
+        <item>Egyptian Mau</item>
+        <item>European Shorthair</item>
+        <item>Exotic Shorthair</item>
+        <item>Foldex</item>
+        <item>German Rex</item>
+        <item>Havana Brown</item>
+        <item>Highlander</item>
+        <item>Himalayan</item>
+        <item>Japanese Bobtail</item>
+        <item>Javanese</item>
+        <item>Khao Manee</item>
+        <item>Korat</item>
+        <item>Korean Bobtail</item>
+        <item>Korn Ja</item>
+        <item>Kurilian Bobtail</item>
+        <item>LaPerm</item>
+        <item>Lykoi</item>
+        <item>Maine Coon</item>
+        <item>Manx</item>
+        <item>Mekong Bobtail</item>
+        <item>Minskin</item>
+        <item>Munchkin</item>
+        <item>Nebelung</item>
+        <item>Norwegian Forest Cat</item>
+        <item>Ocicat</item>
+        <item>Ojos Azules</item>
+        <item>Oregon Rex</item>
+        <item>Oriental Bicolor</item>
+        <item>Oriental Longhair</item>
+        <item>Oriental Shorthair</item>
+        <item>Persian</item>
+        <item>Peterbald</item>
+        <item>Pixie-bob</item>
+        <item>Ragamuffin</item>
+        <item>Ragdoll</item>
+        <item>Russian Blue</item>
+        <item>Russian White, Black and Tabby</item>
+        <item>Sam Sawet</item>
+        <item>Savannah</item>
+        <item>Scottish Fold</item>
+        <item>Selkirk Rex</item>
+        <item>Serengeti</item>
+        <item>Serrade petit</item>
+        <item>Siamese</item>
+        <item>Siberian</item>
+        <item>Singapura</item>
+        <item>Snowshoe</item>
+        <item>Sokoke</item>
+        <item>Somali</item>
+        <item>Sphynx</item>
+        <item>Suphalak</item>
+        <item>Thai</item>
+        <item>Tonkinese</item>
+        <item>Toyger</item>
+        <item>Turkish Angora</item>
+        <item>Turkish Van</item>
+        <item>Ukrainian Levkoy</item>
+    </array>
+    <string name="help_content">
+    <![CDATA[
+    <html>
+    <body style="font-family: sans-serif;">
+        <h1>Welcome to BreedHub Help Page</h1>
+        <p>BreedHub connects cat breeders and owners to help facilitate cat breeding. Additionally, it allows users to view nearby vet clinics and get directions. Here is how you can use the app:</p>
+
+        <h2>1. Register and Set Up Your Profile</h2>
+        <p>To get started with BreedHub, you will need to register an account. Provide your basic information, including your location and contact details. Set up your profile to make it easier for others to find and contact you.</p>
+
+        <h2>2. Browsing and Connecting with Breeders</h2>
+        <p>Use the app to browse through profiles of other cat breeders. You can view their cats, and contact them directly through the app.</p>
+
+        <h2>3. Viewing Nearby Vet Clinics</h2>
+        <p>BreedHub provides a map view of nearby veterinary clinics. Simply tap on the Clinics tab to see a list of clinics close to your location. You can get directions to any clinic by clicking on it.</p>
+
+        <h2>4. Getting Directions</h2>
+        <p>To get directions to a vet clinic, select the clinic from the map view or list.T%he app will provide you with step-by-step navigation to the clinic.</p>
+
+        <h2>FAQs</h2>
+        <h3>Q: How do I reset my password?</h3>
+        <p>A: You can reset your password by going to the Reset Password. Follow the instructions provided.</p>
+
+        <p>Thank you for using BreedHub. We hope you have a great experience connecting with other cat breeders and finding the best care for your cats.</p>
+
+        <p><strong>BreedHub Team</strong></p>
+    </body>
+    </html>
+    ]]>
+</string>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SuccessActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        app:lottie_autoPlay="true"
+        app:lottie_loop="false"
+        app:lottie_rawRes="@raw/success"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="you have successfully added a cat"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        app:cornerRadius="8dp"
+        android:text="Explore Breeds"
+        android:layout_margin="10dp"
+        android:id="@+id/breeds"
+        android:backgroundTint="@color/positive"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        app:cornerRadius="8dp"
+        android:id="@+id/home"
+        android:text="Back to Home"
+        android:layout_margin="10dp"
+        android:textColor="@color/positive"
+        android:textStyle="bold"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint ="@android:color/transparent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/petImage"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        app:shapeAppearanceOverlay="@style/CircleImageView"
+        android:src="@drawable/cat4"
+        android:layout_width="64dp"
+        android:background="#DCD5D5"
+        android:layout_height="64dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/petName"
+        android:layout_margin="5dp"
+        android:text="Johny cat"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

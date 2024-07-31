@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intro.GetStartedActivity">
+
+<!--    <LinearLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="170dp">-->
+
+<!--        <ImageView-->
+<!--            android:src="@drawable/cat1"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--        <ImageView-->
+<!--            android:src="@drawable/cat2"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="170dp">-->
+
+<!--        <ImageView-->
+<!--            android:src="@drawable/banner"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--        <ImageView-->
+<!--            android:src="@drawable/cat3"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="170dp">-->
+
+<!--        <ImageView-->
+<!--            android:src="@drawable/cat4"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--        <ImageView-->
+<!--            android:src="@drawable/cat5"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="170dp">-->
+
+<!--        <ImageView-->
+<!--            android:src="@drawable/cat6"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--        <ImageView-->
+<!--            android:src="@drawable/cat7"-->
+<!--            android:backgroundTint="@color/white"-->
+<!--            android:scaleType="fitCenter"-->
+<!--            android:layout_weight="0.5"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
+
+<!--    </LinearLayout>-->
+
+</LinearLayout>
